@@ -1,4 +1,9 @@
-# Angular
+# locize example integration for angular
+
+Uses [angular-i18next](https://github.com/Romanchuk/angular-i18next).
+
+The most important part regarding locize is [here](https://github.com/locize/locize-angular-example/blob/main/src/app/app.module.ts).
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.3.
 
