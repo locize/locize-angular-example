@@ -1,3 +1,8 @@
+This is the example app used in [this blog post](https://locize.com/blog/unleash-the-full-power-of-angular-i18next/).
+
+---
+
+
 # locize example integration for angular
 
 Uses [angular-i18next](https://github.com/Romanchuk/angular-i18next).
