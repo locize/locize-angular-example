@@ -10,13 +10,13 @@ import { AppComponent } from './app.component';
 
 const locizeOptions = {
   projectId: 'c0fa7b2a-219b-44c8-8672-e386b8123b21',
-  // apiKey: 'my-api-key' // used for handleMissing functionality, do not add your api-key in a production buildyour
+  // apiKey: 'my-api-key' // used for handleMissing functionality, do not add your api-key in a production build
 };
 
 const i18nextOptions = {
   debug: true,
   fallbackLng: 'en',
-  // saveMissing: true,
+  // saveMissing: true, // do not use the saveMissing functionality in production: https://docs.locize.com/guides-tips-and-tricks/going-production
   backend: locizeOptions,
   locizeLastUsed: locizeOptions,
   interpolation: {
