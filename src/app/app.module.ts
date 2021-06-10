@@ -31,6 +31,7 @@ export function appInit(i18next: ITranslationService) {
       // sets a timestamp of last access on every translation segment on locize
       // -> safely remove the ones not being touched for weeks/months
       // https://github.com/locize/locize-lastused
+      // do not use the lastused functionality in production: https://docs.locize.com/guides-tips-and-tricks/going-production
       .use(LastUsed)
       // locize-editor
       // InContext Editor of locize
