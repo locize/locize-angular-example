@@ -1,4 +1,4 @@
-This is the example app used in [this blog post](https://locize.com/blog/unleash-the-full-power-of-angular-i18next/).
+This is the example app used in [this blog post](https://locize.com/blog/angular-i18next/).
 
 ---
 
